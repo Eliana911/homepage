@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagiri</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin:0;
+        padding:0;
+        background-color:white;
+    }
+
+    header {
+        background-color: rgb(63, 155, 155);
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #logo {
+            width: 100px; 
+            height: auto; 
+            position: absolute;
+            top: 10px;
+            left: 10px;
+    }
+
+    nav {
+        background-color: rgb(25, 81, 81);
+        padding: 10px;
+        text-align: center;
+        overflow: hidden;
+    }
+     
+    nav a {
+        float: left;
+        display:block;
+        color: white;
+        text-align: center;
+        padding: 14px 10px;
+        text-decoration: none;
+     
+    }
+
+    nav a:hover {
+        background-color: rgb(255, 255, 255);
+        color: black;
+    }
+
+    section {
+        padding: 20px; 
+    }
+    
+    footer {
+        background-color: rgb(63, 155, 155);
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    @keyframes blink {
+      0%, 49%, 100% {
+        opacity: 1;
+      }
+      50%, 99% {
+        opacity: 0;
+      }
+    }
+
+    .blinking-text {
+      animation: blink 1s infinite;
+    }
+
+</style>
+<head>
+    <body>
+        <header>
+            <h1>
+                Sistem informasi akademik </br> Teknologi informasi UM Palembang.
+            </h1>
+
+            <img id="logo" src="Logo-UMPalembang-2019-Mini.png" alt="Logo Situs Web">
+            
+        </header>
+
+        <nav>
+            <a href="home.html">Beranda</a>
+            <a href="mahasiswa.html">Mahasiswa</a>
+            <a href="dosen.html">Dosen</a>
+            <a href="mata.html">Mata Kuliah</a>
+        </nav>
+
+        <section>
+            <h1 id="home">Beranda</h1>
+            <p class="blinking-text">Selamat datang di sistem informasi akademik. Ini adalah Halaman beranda.</p>
+        </section>
+
+        <footer>
+            <p>&copy;2023 Teknologi informasi Hak cipta di lindungi Raya</p>
+        </footer>
+    </body>
+</head>
+</html>
+
